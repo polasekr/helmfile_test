@@ -10,4 +10,4 @@ repositories:
 releases:
 - name: test
   namespace: default
-  chart: ./chart_with_dependencies
+  chart: ../chart_with_dependencies
