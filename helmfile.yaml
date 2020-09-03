@@ -1,0 +1,13 @@
+helmDefaults:
+  cleanupOnFail: false
+  atomic: false
+  wait: false
+
+repositories:
+- name: stable
+  url: https://kubernetes-charts.storage.googleapis.com
+
+releases:
+- name: test
+  namespace: default
+  chart: ./chart_with_dependencies
